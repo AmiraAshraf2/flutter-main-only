@@ -6,7 +6,7 @@ import 'package:weather_app/models/weather_models.dart';
 class WeatherService {
   final Dio dio;
   final String baseURL = "https://api.weatherapi.com/v1";
-  final String apiKey = "28e87a0d518946bf921143417242812";
+  final String apiKey = "";
 
   WeatherService(this.dio);
 
